@@ -1,6 +1,5 @@
 import requests
 import time
-from colorama import Fore
 from config_file import ConfigFile
 config = ConfigFile("apis.ini")
 API_KEY = config.get('keys.api_key', parse_types=True)
