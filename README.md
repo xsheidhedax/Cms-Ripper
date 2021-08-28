@@ -4,16 +4,15 @@ Cms-Ripper is a tiny python  script, to mass identify websites cms (Content mana
 
 ## Installation & usage
 
-clone the repo [Cms-Ripper](https://github.com/sheidheda/Cms-Ripper) .
 get your api key from [WHATCMS](https://whatcms.org/API)
-put your key in [apis.ini]
+put your key in apis.ini
 then run the script .
 
 
 
 ```bash
 git clone https://github.com/sheidheda/Cms-Ripper
-python3 cms-ripper.py
+python3 cms-riper.py
 ```
 
 
