@@ -49,7 +49,7 @@ def multiScan(url):
             filo.writelines(url+'\n')
    
 if __name__=="__main__":    
-     input_file = input('INPUT PUT YOUR LIST NAME:  ')
+     input_file = input('INPUT  YOUR LIST NAME:  ')
      if input_file:
         with open(input_file,'r') as urls:
             durl = [url.strip('\n') for url in urls]
